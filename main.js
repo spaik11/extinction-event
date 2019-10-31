@@ -33,10 +33,10 @@ function burnItAll() {
         firstOl[i] = firstOl[i].style.textDecoration = 'line-through';
     }
     for (let i = 0; i < firstUl.length; i++) {
-    firstUl[i] = firstUl[i].style.opacity = '0';
+        firstUl[i] = firstUl[i].style.opacity = '0';
     }
     for (let i = 0; i < images.length; i++) {
-    images[i] = images[i].style.width = '0px';
+        images[i] = images[i].style.width = '0px';
     }
 }
 
